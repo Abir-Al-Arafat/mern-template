@@ -7,7 +7,7 @@ export const apiClient = async <T>(
 ): Promise<T> => {
   const defaultHeaders: HeadersInit = {
     "Content-Type": "application/json",
-    // You can dynamically pull auth tokens here later:
+    // dynamically pull auth tokens here later:
     // 'Authorization': `Bearer ${localStorage.getItem('token')}`
   };
 
